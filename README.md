@@ -34,6 +34,17 @@ Layer turns your desktop into a calm, customizable canvas. Add widgets, arrange 
 
 ---
 
+## Is it safe?
+
+Short answer: yes. Here's the honest detail, since running any `.exe` deserves caution.
+
+- **VirusTotal flags (2 of ~70 engines):** a couple of heuristic/ML "behaviour" engines (e.g. Trapmine, SecureAge) flag Layer. These are well known for false‑positives on small, unsigned indie apps. They aren't matching a malware signature — they react to two things Layer legitimately does: a **global hotkey** (so `Ctrl+Shift+N` quick‑capture works anywhere, which is a keyboard hook) and a **transparent full‑screen desktop overlay** (which is literally what Layer is). **Microsoft Defender and the other ~68 engines pass it clean.**
+- **Built on WebView2:** Layer uses [Tauri](https://tauri.app) — a tiny Rust core plus a web UI rendered by **Microsoft's WebView2** (the same engine behind Edge, shipped and updated by Microsoft). It does not bundle a browser or anything hidden.
+- **Runs as a normal app:** no drivers, no services, no system‑level changes. It only writes to your own `%AppData%\Layer` folder and **uninstalls cleanly**.
+- **Network:** only the public APIs for the features you use — weather (open‑meteo), currency rates (frankfurter), the Space gallery, and GitHub for updates. **No telemetry, no tracking.**
+
+---
+
 ## Changelog
 
 ### v1.4.2 — Multi‑monitor, new widgets & stability
