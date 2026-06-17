@@ -47,6 +47,13 @@ Short answer: yes. Here's the honest detail, since running any `.exe` deserves c
 
 ## Changelog
 
+### v1.7.0 — 🌍 Layer speaks your language
+- 🌍 **9 languages** — Layer's whole interface is now translated into English, Español, Français, Deutsch, Português (BR), Italiano, Русский, 简体中文 and 日本語. Pick yours in **Settings → General → Language**; it switches instantly.
+- 💬 **Consistent tooltips everywhere** — every interactive button across all widgets now shows the same clean hover tooltip, so nothing is a mystery.
+- 🧹 **Send-to-back / bring-to-front fixed** — widget layering now always behaves correctly; a widget can never get "stuck" behind the desktop again (and any layout already affected heals itself).
+- 🩹 **Cleaner uninstall** — uninstalling Layer now also removes its screensaver, so it never lingers after the app is gone.
+
+
 ### v1.4.2 — Multi‑monitor, new widgets & stability
 - 🖥️ **Multi‑monitor, sorted** — the pill & menu bar always sit on your primary screen (never the gap between mismatched monitors), **Settings is draggable**, all modals/palettes open on a real screen, and the desktop **auto‑extends to a monitor you plug in** (no restart).
 - 🗄️ **Shelf** widget — drag any file/image/video onto it to stash it (hidden folder) with thumbnails; open, reveal, or remove anytime.
