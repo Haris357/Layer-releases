@@ -47,6 +47,12 @@ Short answer: yes. Here's the honest detail, since running any `.exe` deserves c
 
 ## Changelog
 
+### v1.7.1 — 🌍 Fuller translations & localized dates
+- 🗓️ **Localized dates everywhere** — the Clock, World Clock and Calendar now show day and month names in your selected language.
+- 🖱️ **Translated right-click menu** — the widget context menu (Duplicate, Bring to front, Color, Theme…) is now fully translated.
+- 💬 **Everything else translated too** — toasts, notifications, the command palette, dialogs, cloud-sync messages and the screensaver now follow your language. If something was still showing in English, it shouldn't be anymore.
+
+
 ### v1.7.0 — 🌍 Layer speaks your language
 - 🌍 **9 languages** — Layer's whole interface is now translated into English, Español, Français, Deutsch, Português (BR), Italiano, Русский, 简体中文 and 日本語. Pick yours in **Settings → General → Language**; it switches instantly.
 - 💬 **Consistent tooltips everywhere** — every interactive button across all widgets now shows the same clean hover tooltip, so nothing is a mystery.
