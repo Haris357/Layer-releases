@@ -47,6 +47,10 @@ Short answer: yes. Here's the honest detail, since running any `.exe` deserves c
 
 ## Changelog
 
+### v1.7.2 — 🩹 Fix top-bar flicker
+- ✨ **No more flicker** — the top bar no longer strobes/blinks while the widget menu is expanded (it was most visible in dark mode). The open/close animation is unchanged.
+
+
 ### v1.7.1 — 🌍 Fuller translations & localized dates
 - 🗓️ **Localized dates everywhere** — the Clock, World Clock and Calendar now show day and month names in your selected language.
 - 🖱️ **Translated right-click menu** — the widget context menu (Duplicate, Bring to front, Color, Theme…) is now fully translated.
