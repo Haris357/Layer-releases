@@ -47,6 +47,12 @@ Short answer: yes. Here's the honest detail, since running any `.exe` deserves c
 
 ## Changelog
 
+### v1.8.0 — ⌨️ Remap or disable any keyboard shortcut
+- ⌨️ **Rebind every shortcut** — the edit-mode toggle, Quick capture, Cycle spaces and Preview screensaver can all be set to whatever key combo you like, in **Settings → Shortcuts**.
+- 🚫 **Turn shortcuts off** — disable any of the secondary shortcuts so they no longer clash with other apps (e.g. Ctrl+Shift+S vs "Save As"). A disabled shortcut fully frees its keys system-wide.
+- 🧠 **Your bindings stick** — custom shortcuts now persist correctly across restarts.
+
+
 ### v1.7.2 — 🩹 Fix top-bar flicker
 - ✨ **No more flicker** — the top bar no longer strobes/blinks while the widget menu is expanded (it was most visible in dark mode). The open/close animation is unchanged.
 
