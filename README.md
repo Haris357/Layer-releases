@@ -47,6 +47,12 @@ Short answer: yes. Here's the honest detail, since running any `.exe` deserves c
 
 ## Changelog
 
+### v1.9.0 — 🗓️ Week start, shortcut fixes & a context-menu fix
+- 🗓️ **Choose your week start** — the Calendar can now start the week on **Monday or Sunday**. Set it in the Calendar widget's settings gear; the month grid, week view and headers all follow.
+- ⌨️ **Rebinding shortcuts actually works** — while you're setting a new shortcut, Layer now frees up its keys so any combo (even Ctrl+Shift+S/N/E) is captured correctly. The Shortcuts screen also explains how it works.
+- 🖱️ **Context menu closes properly** — the right-click widget menu now closes when you click anywhere on the desktop, not just on another widget.
+
+
 ### v1.8.0 — ⌨️ Remap or disable any keyboard shortcut
 - ⌨️ **Rebind every shortcut** — the edit-mode toggle, Quick capture, Cycle spaces and Preview screensaver can all be set to whatever key combo you like, in **Settings → Shortcuts**.
 - 🚫 **Turn shortcuts off** — disable any of the secondary shortcuts so they no longer clash with other apps (e.g. Ctrl+Shift+S vs "Save As"). A disabled shortcut fully frees its keys system-wide.
