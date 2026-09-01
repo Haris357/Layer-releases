@@ -47,6 +47,15 @@ Short answer: yes. Here's the honest detail, since running any `.exe` deserves c
 
 ## Changelog
 
+### v1.10.0 — 🎯 Quick Capture now works over any app, plus Hide All and monitor profiles
+- 🐛 **Quick Capture (Ctrl+Shift+N) now pops up over whatever you're using** — it was rendering behind other windows instead of on top, so it only ever seemed to work with nothing else open. Fixed.
+- 🙈 **New: Hide everything, instantly** — `Ctrl+Shift+H` hides the whole canvas in one press (handy in public or before a screen share); press again to bring it back. Remappable in Settings → Shortcuts.
+- 🖥️ **New: Layer remembers your setup** — switch between your office multi-monitor rig and your laptop, and Layer automatically switches to whichever Space you last used with that exact monitor setup. Fully automatic, nothing to configure.
+- 📏 **New: Quick size presets** — right-click any widget for Small/Medium/Large sizing, scaled sensibly for that widget type.
+- ✨ Reduced a visual flicker when adding new widgets.
+- 🧹 Removed cloud sync and "export canvas as image." Everything now stays local — one less thing to configure, and one less service Layer depends on.
+
+
 ### v1.9.0 — 🗓️ Week start, shortcut fixes & a context-menu fix
 - 🗓️ **Choose your week start** — the Calendar can now start the week on **Monday or Sunday**. Set it in the Calendar widget's settings gear; the month grid, week view and headers all follow.
 - ⌨️ **Rebinding shortcuts actually works** — while you're setting a new shortcut, Layer now frees up its keys so any combo (even Ctrl+Shift+S/N/E) is captured correctly. The Shortcuts screen also explains how it works.
