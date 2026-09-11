@@ -1,3 +1,8 @@
+> **This repo now just mirrors compiled installers for the auto-updater.**
+> Source code, issues, discussions, and downloads all live at
+> **[github.com/Haris357/Layer](https://github.com/Haris357/Layer)** — head
+> there instead.
+
 <div align="center">
 
 # Layer
@@ -6,7 +11,7 @@
 
 Drop notes, clocks, weather, media controls, a shelf, and more straight onto your wallpaper — pinned to the desktop, out of your way until you want them.
 
-[**⬇️ Download for Windows**](https://github.com/Haris357/Layer-releases/releases/latest/download/Layer-Setup.exe) · [**🌐 Website**](https://layer-desktop.web.app) · [**🖼️ Space Gallery**](https://layer-desktop.web.app/spaces) · [**📦 All releases**](https://github.com/Haris357/Layer-releases/releases)
+[**⬇️ Download for Windows**](https://github.com/Haris357/Layer/releases/latest/download/Layer-Setup.exe) · [**🌐 Website**](https://layer-desktop.web.app) · [**🖼️ Space Gallery**](https://layer-desktop.web.app/spaces) · [**📦 All releases**](https://github.com/Haris357/Layer/releases)
 
 </div>
 
